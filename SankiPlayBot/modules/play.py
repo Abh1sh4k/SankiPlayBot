@@ -319,7 +319,7 @@ async def m_cb(b, cb):
         else:
             callsmusic.pytgcalls.pause_stream(chet_id)
 
-            await cb.answer("Sσηg ıs Ραυsəd Oη Vc 😼")
+            await cb.answer("Sσηg ıs Ραυsəd Oη Vc 🐍")
             await cb.message.edit(
                 updated_stats(m_chat, qeue), reply_markup=r_ply("play")
             )
@@ -331,7 +331,7 @@ async def m_cb(b, cb):
             await cb.answer("⚠ Chατ ιs ηοτ cοηηεctεd...", show_alert=True)
         else:
             callsmusic.pytgcalls.resume_stream(chet_id)
-            await cb.answer("Sσηg ıs Rεsuməd Oη Vc 😼")
+            await cb.answer("Sσηg ıs Rεsuməd Oη Vc 🐍")
             await cb.message.edit(
                 updated_stats(m_chat, qeue), reply_markup=r_ply("pause")
             )
@@ -366,7 +366,7 @@ async def m_cb(b, cb):
             await cb.answer("⚠ Chατ ιs ηοτ cοηηεctεd...", show_alert=True)
         else:
             callsmusic.pytgcalls.resume_stream(chet_id)
-            await cb.answer("Sσηg ıs Rεsuməd Oη Vc 😼")
+            await cb.answer("Sσηg ıs Rεsuməd Oη Vc 🐍")
     elif type_ == "puse":
         if (chet_id not in callsmusic.pytgcalls.active_calls) or (
             callsmusic.pytgcalls.active_calls[chet_id] == "paused"
@@ -375,7 +375,7 @@ async def m_cb(b, cb):
         else:
             callsmusic.pytgcalls.pause_stream(chet_id)
 
-            await cb.answer("Sσηg ıs Ραυsəd Oη Vc 😼")
+            await cb.answer("Sσηg ıs Ραυsəd Oη Vc 🐍")
     elif type_ == "cls":
         await cb.answer("Mεηυ Clσsεd 🤫")
         await cb.message.delete()
@@ -446,7 +446,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "SankiAssistant"
+        user.first_name = "HydraAssistant"
     usar = user
     wew = usar.id
     try:
@@ -464,14 +464,14 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>😾 λdd Mε Αs Admιη σf Yσυr Grσυρ Fιrsτ.</b>",
+                        "<b>🐍 λdd Mε Αs Admιη σf Yσυr Grσυρ Fιrsτ.</b>",
                     )
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "👀🧡 ΗεΥ Ι Jσιηεd Τhιs Grσυρ Fσr Ρlαyιηg Μυsιc Ιη Vc."
+                        message.chat.id, "👀🧡 ΗεΥ Ι Jσιηεd Τhιs Grσυρ Fσr Ρlαyιηg Μυsιc Ιη Vc MY Owner @Abh1sh3k_Official 👑."
                     )
                     await lel.edit(
                         "<b>🧡 Ηεlρεr Usεrβστ Jσιηεd Yσυr Grσυρ.</b>",
@@ -483,7 +483,7 @@ async def play(_, message: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>⚠ Flσσd Wαιτ Errσr ⚠ \nUsεr {user.first_name} Cουldη'τ Jσιη Υσur Chaηηεl Dυε τσ Ηεανy Rəqυεsτ  Fσr Usεrβστ ! Mακε Sυrε Usεr Is ηστ βαηηεd ıη Grσυρ."
-                        "\n\nΟr Mαηυαlly Add @SankiRobot τσ Υσυr Grσυρ Αηd TrY Agαιη.</b>",
+                        "\n\nΟr Mαηυαlly Add @HydraAssistant τσ Υσυr Grσυρ Αηd TrY Agαιη.</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -534,7 +534,7 @@ async def play(_, message: Message):
         )
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/4a924fb45cb7a4975f754.jpg"
+        thumb_name = "https://telegra.ph/file/a773184a99ea9d1b52e71.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "▶ Lσcαlly Addεd"
@@ -647,7 +647,7 @@ async def play(_, message: Message):
 
             except Exception as e:
                 await lel.edit(
-                    "⚠ Sσηg ηστ Fσυηd. Try Aηστhεr Sσηg Or Mαy βε Sρεll Iτ Ρrσρεrly.."
+                    "⚠ Sσηg ηστ Fσυηd Sorry Sir. Try Aηστhεr Sσηg Or Mαy βε Sρεll Iτ Ρrσρεrly.."
                 )
                 print(str(e))
                 return
@@ -722,7 +722,7 @@ async def ytplay(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "SankiAssistant"
+        user.first_name = "HydraAssistant"
     usar = user
     wew = usar.id
     try:
@@ -740,14 +740,14 @@ async def ytplay(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>😾 λdd Mε Αs Admιη σf Yσυr Grσυρ Fιrsτ.</b>",
+                        "<b>🐍 λdd Mε Αs Admιη σf Yσυr Grσυρ Fιrsτ.</b>",
                     )
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "👀🧡 ΗεΥ Ι Jσιηεd Τhιs Grσυρ Fσr Ρlαyιηg Μυsιc Ιη Vc."
+                        message.chat.id, "👀🧡 ΗεΥ Ι Jσιηεd Τhιs Grσυρ Fσr Ρlαyιηg Μυsιc Ιη Vc My Owner @Abh1sh3k_Official 👑."
                     )
                     await lel.edit(
                         "<b>🧡 Ηεlρεr Usεrβστ Jσιηεd Yσυr Grσυρ.</b>",
@@ -759,7 +759,7 @@ async def ytplay(_, message: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>⚠ Flσσd Wαιτ Errσr ⚠ \nUsεr {user.first_name} Cουldη'τ Jσιη Υσur Chaηηεl Dυε τσ Ηεανy Rəqυεsτ  Fσr Usεrβστ ! Mακε Sυrε Usεr Is ηστ βαηηεd ıη Grσυρ."
-                        "\n\nΟr Mαηυαlly Add @SankiRobot τσ Υσυr Grσυρ Αηd TrY Agαιη.</b>",
+                        "\n\nΟr Mαηυαlly Add @HydraAssistant τσ Υσυr Grσυρ Αηd TrY Agαιη.</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -868,7 +868,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "SankiAssistant"
+        user.first_name = "HydraAssistant"
     usar = user
     wew = usar.id
     try:
@@ -886,14 +886,14 @@ async def deezer(client: Client, message_: Message):
                     invitelink = await client.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>😾 λdd Mε Αs Admιη σf Yσυr Grσυρ Fιrsτ</b>",
+                        "<b>🐍 λdd Mε Αs Admιη σf Yσυr Grσυρ Fιrsτ</b>",
                     )
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message_.chat.id, "👀🧡 ΗεΥ Ι Jσιηεd Τhιs Grσυρ Fσr Ρlαyιηg Μυsιc Ιη Vc."
+                        message_.chat.id, "👀🧡 ΗεΥ Ι Jσιηεd Τhιs Grσυρ Fσr Ρlαyιηg Μυsιc Ιη Vc My Owner @Abh1sh3k_Official 👑."
                     )
                     await lel.edit(
                         "<b>🧡 Ηεlρεr Usεrβστ Jσιηεd Yσυr Grσυρ.</b>",
@@ -905,7 +905,7 @@ async def deezer(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>⚠ Flσσd Wαιτ Errσr ⚠ \nUsεr {user.first_name} Cουldη'τ Jσιη Υσur Chaηηεl Dυε τσ Ηεανy Rəqυεsτ  Fσr Usεrβστ ! Mακε Sυrε Usεr Is ηστ βαηηεd ıη Grσυρ."
-                        "\n\nΟr Mαηυαlly Add @SankiRobot τσ Υσυr Grσυρ Αηd TrY Agαιη.</b>",
+                        "\n\nΟr Mαηυαlly Add @HydraAssistant τσ Υσυr Grσυρ Αηd TrY Agαιη.</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -931,10 +931,10 @@ async def deezer(client: Client, message_: Message):
         url = songs.result[0].url
         artist = songs.result[0].artist
         duration = songs.result[0].duration
-        thumbnail = "https://telegra.ph/file/4a924fb45cb7a4975f754.jpg"
+        thumbnail = "https://telegra.ph/file/a773184a99ea9d1b52e71.jpg"
 
     except:
-        await res.edit("😼Lιττεraly Nστhιηg Fσυηd, Yου Shσυld ωσrκ ση Υσυr Eηglιsh 😝.")
+        await res.edit("🐍Lιττεraly Nστhιηg Fσυηd, Yου Shσυld ωσrκ ση Υσυr Eηglιsh 😝.")
         return
     try:    
         duuration= round(duration / 60)
@@ -1006,7 +1006,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "SankiAssistant"
+        user.first_name = "HydraAssistant"
     usar = user
     wew = usar.id
     try:
@@ -1024,14 +1024,14 @@ async def jiosaavn(client: Client, message_: Message):
                     invitelink = await client.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>😾 λdd Mε Αs Admιη σf Yσυr Chαηηεl Fιrsτ.</b>",
+                        "<b>🐍 λdd Mε Αs Admιη σf Yσυr Chαηηεl Fιrsτ.</b>",
                     )
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message_.chat.id, "👀🧡 ΗεΥ Ι Jσιηεd Τhιs Grσυρ Fσr Ρlαyιηg Μυsιc Ιη Vc"
+                        message_.chat.id, "👀🧡 ΗεΥ Ι Jσιηεd Τhιs Grσυρ Fσr Ρlαyιηg Μυsιc Ιη Vc My Owner @Abh1sh3k_Official 👑"
                     )
                     await lel.edit(
                         "<b>🧡 Ηεlρεr Usεrβστ Jσιηεd Yσυr Grσυρ.</b>",
@@ -1043,7 +1043,7 @@ async def jiosaavn(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>⚠ Flσσd Wαιτ Errσr ⚠ \nUsεr {user.first_name} Cουldη'τ Jσιη Υσur Chaηηεl Dυε τσ Ηεανy Rəqυεsτ  Fσr Usεrβστ ! Mακε Sυrε Usεr Is ηστ βαηηεd ıη Grσυρ."
-                        "\n\nΟr Mαηυαlly Add @SankiRobot τσ Υσυr Grσυρ Αηd TrY Agαιη.</b>",
+                        "\n\nΟr Mαηυαlly Add @HydraAssistant τσ Υσυr Grσυρ Αηd TrY Agαιη.</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -1070,7 +1070,7 @@ async def jiosaavn(client: Client, message_: Message):
         sthumb = songs.result[0].image
         sduration = int(songs.result[0].duration)
     except Exception as e:
-        await res.edit("😼Lιττεraly Nστhιηg Fσυηd, Yου Shσυld ωσrκ ση Υσυr Eηglιsh 😝.")
+        await res.edit("🐍Lιττεraly Nστhιηg Fσυηd, Yου Shσυld ωσrκ ση Υσυr Eηglιsh 😝.")
         print(str(e))
         return
     try:    
