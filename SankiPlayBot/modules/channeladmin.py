@@ -26,10 +26,10 @@ async def pause(_, message: Message):
     if (chat_id not in callsmusic.pytgcalls.active_calls) or (
         callsmusic.pytgcalls.active_calls[chat_id] == "paused"
     ):
-        await message.reply_text("❗ Νσ Aηy Sσηg ıs Playιηg Oη Vc 😼")
+        await message.reply_text("❗ Νσ Aηy Sσηg ıs Playιηg Oη Vc 🐍")
     else:
         callsmusic.pytgcalls.pause_stream(chat_id)
-        await message.reply_text("▶️ Sσηg Hαs Bεεη Ραυsəd My Lord 😼")
+        await message.reply_text("▶️ Sσηg Hαs Bεεη Ραυsəd Viro 🐍")
 
 
 @Client.on_message(filters.command(["channelresume","cresume"]) & filters.group & ~filters.edited)
