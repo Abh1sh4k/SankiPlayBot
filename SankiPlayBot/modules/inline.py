@@ -16,7 +16,7 @@ async def inline(client: Client, query: InlineQuery):
         await client.answer_inline_query(
             query.id,
             results=answers,
-            switch_pm_text="Tyρε Αηy Υσυτυβε Vιdεσ Ναmε...",
+            switch_pm_text="Hey! I am Hydra PLay Bot Just Tyρε Αηy Υσυτυβε Vιdεσ Ναmε...",
             switch_pm_parameter="help",
             cache_time=0,
         )
