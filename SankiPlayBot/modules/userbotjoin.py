@@ -14,7 +14,7 @@ async def addchannel(client, message):
         invitelink = await client.export_chat_invite_link(chid)
     except:
         await message.reply_text(
-            "<b>😼 Hεllσ, Add Mε λs λdmιη Οf Υσυr Grσυρ Fιrsτ.</b>",
+            "<b>🐍 Hεllσ, Add Mε λs λdmιη Οf Υσυr Grσυρ Fιrsτ.</b>",
         )
         return
 
@@ -34,7 +34,7 @@ async def addchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>⚠ Flσσd Wαιτ Errσr ⚠ \n Usεr {user.first_name} Cσυldη'τ Jσιη Υσυr Grσυρ Dυε Τσ ΗεανΥ Jσιη Rεqυεsτs Fσr Usεrβστ ! Mακε Sυrε Usεr Ιs Νστ βαηηεd Ιη Grσυp."
-            "\n\nOr Mαηυαlly λdd @SankiRobot Τσ Υσυr Grσυρ ληd Τry Αgαιη.</b>",
+            "\n\nOr Mαηυαlly λdd @HydraAssistant Τσ Υσυr Grσυρ ληd Τry Αgαιη.</b>",
         )
         return
     await message.reply_text(
@@ -88,7 +88,7 @@ async def addcchannel(client, message):
         invitelink = await client.export_chat_invite_link(chid)
     except:
         await message.reply_text(
-            "<b>😼 Hεllσ, Add Mε λs λdmιη Οf Υσυr Grσυρ Fιrsτ.</b>",
+            "<b>🐍 Hεllσ, Add Mε λs λdmιη Οf Υσυr Grσυρ Fιrsτ.</b>",
         )
         return
 
@@ -109,7 +109,7 @@ async def addcchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>⚠ Flσσd Wαιτ Errσr ⚠ \n Usεr {user.first_name} Cσυldη'τ Jσιη Υσυr Grσυρ Dυε Τσ ΗεανΥ Jσιη Rεqυεsτs Fσr Usεrβστ ! Mακε Sυrε Usεr Ιs Νστ βαηηεd Ιη Grσυp."
-            "\n\nOr Mαηυαlly λdd @SankiRobot Τσ Υσυr Grσυρ ληd Τry Αgαιη.</b>",
+            "\n\nOr Mαηυαlly λdd @HydraAssistant Τσ Υσυr Grσυρ ληd Τry Αgαιη.</b>",
         )
         return
     await message.reply_text(
